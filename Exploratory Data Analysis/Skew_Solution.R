@@ -1,7 +1,7 @@
 ### Visual examination of the skew
 
-sk1 <- read_csv("skew_1.csv")
-sk2 <- read_csv("skew_2.csv")
+sk1 <- read_csv("skew-1.csv")
+sk2 <- read_csv("skew-2.csv")
 
 skew1 <- ggplot(data = sk1, aes(x = `Dataset 1`))
 skew1 + geom_histogram(binwidth = 100,
